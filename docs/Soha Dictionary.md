@@ -19,7 +19,7 @@ Soha Dictionary is a free online Vietnamese dictionary that provides translation
 3.  Click the “Translate” button.
 4.  The Vietnamese translation will appear below the Vietnamese word or phrase.
 
-**![Anh1](https://v2l.edu.vn/wp-content/uploads/2023/11/Anh1.jpg "How to use Soha Dictionary (English-Vietnamese and Vietnamese-Vietnamese) 1")**
+**![Anh1](/assets/img/Anh1.jpg "How to use Soha Dictionary (English-Vietnamese and Vietnamese-Vietnamese) 1")**
 
 **  
 Additional features**

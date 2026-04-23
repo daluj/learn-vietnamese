@@ -45,7 +45,7 @@ Copyright &copy; 2026 DAVID LUENGO JUAREZ
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Get started" = ["index.md","markdown.md"] },
+  { "Get started" = ["index.md","markdown.md","Soha Dictionary.md"] },
   { "Pronunciation" = [
       "pronunciation/1.md",
       "pronunciation/2.md",
