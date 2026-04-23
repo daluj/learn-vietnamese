@@ -1,0 +1,7 @@
+.cache
+.devbox
+.github
+.obsidian
+.venv
+devbox.lock
+site/

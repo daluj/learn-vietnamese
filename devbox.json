@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "python311",
+    "uv"
+  ],
+  "shell": {
+    "init_hook": [
+      "uv venv --allow-existing",
+      "source .venv/bin/activate",
+      "uv pip install zensical"
+    ]
+  }
+}
