@@ -102,6 +102,34 @@ nav = [
       "grammar/7.md"
     ]
   },
+  { "Vocabulary" = [
+      "vocabulary/1.md",
+      "vocabulary/2.md",
+      "vocabulary/3.md",
+      "vocabulary/4.md",
+      "vocabulary/5.md",
+      "vocabulary/6.md",
+      "vocabulary/7.md",
+      "vocabulary/8.md",
+      "vocabulary/9.md",
+      "vocabulary/10.md",
+      "vocabulary/11.md",
+      "vocabulary/12.md",
+      "vocabulary/13.md",
+      "vocabulary/14.md",
+      "vocabulary/15.md",
+      "vocabulary/16.md",
+      "vocabulary/17.md",
+      "vocabulary/18.md",
+      "vocabulary/19.md",
+      "vocabulary/20.md",
+      "vocabulary/21.md",
+      "vocabulary/22.md",
+      "vocabulary/23.md",
+      "vocabulary/24.md",
+      "vocabulary/25.md"
+    ]
+  },
   { "Reading" = [
       "reading/1.md",
       "reading/2.md",
