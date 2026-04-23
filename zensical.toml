@@ -102,6 +102,20 @@ nav = [
       "grammar/7.md"
     ]
   },
+  { "Reading" = [
+      "reading/1.md",
+      "reading/2.md",
+      "reading/3.md",
+      "reading/4.md",
+      "reading/5.md",
+      "reading/6.md",
+      "reading/7.md",
+      "reading/8.md",
+      "reading/9.md",
+      "reading/10.md",
+      "reading/11.md"
+    ]
+  }
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
