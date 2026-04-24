@@ -4,170 +4,55 @@ icon: lucide/rocket
 
 # Get started
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+👋 Welcome to your Vietnamese learning journey! This guide will help you adopt the right mindset, immerse yourself in the language, and set meaningful goals to achieve fluency faster.
 
-## Commands
+<!--more-->
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+## Why Learn Vietnamese?
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+Vietnamese is a vibrant, tonal language spoken by over 90 million people. Learning it opens doors to rich cultural experiences, travel, and meaningful connections. By starting with the right approach, you’ll find Vietnamese approachable and rewarding.
 
-## Examples
+!!! info 
+    **Mindset Matters**: Believe Vietnamese is learnable, its patterns and tones are just new skills to master!
 
-### Admonitions
+## The Right Approach
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+### Step 1: Adopt the Right Mindset
 
-!!! note
+Success in language learning begins with a positive attitude:
 
-    This is a **note** admonition. Use it to provide helpful information.
+- **Believe it’s easy**: View Vietnamese as a system of patterns you can learn, not a barrier.
+- **Embrace mistakes**: Mistakes are stepping stones to fluency.
+- **Think in Vietnamese**: Label objects around you to build direct associations.
 
-!!! warning
+### Step 2: Immerse Yourself from Day 1
 
-    This is a **warning** admonition. Be careful!
+Immersion is key to natural language acquisition:
 
-### Details
+- **Listen to native speakers**: Practice speaking to native speakers to learn their accents.
+- **Surround yourself**: Immerse yourself in the Vietnamese culture by visiting local places.
+- **Mimic tones**: Vietnamese is tonal—practice mimicking native speakers to master the six tones.
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
+### Step 3: Set Meaningful Goals
 
-??? info "Click to expand for more info"
+Clear, emotional goals keep you motivated:
 
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
+- **Define your “why”**: Are you learning to connect with locals, travel, or work in Vietnam?
+- **Use SMART goals**:
+  - **Specific**: “Order food in Vietnamese.”
+  - **Measurable**: “Learn 50 food-related words.”
+  - **Achievable**: “Practice 10 minutes daily.”
+  - **Relevant**: Ties to your “why.”
+  - **Time-bound**: “In 2 months.”
+- **Track progress**: Use a journal or app to log milestones.
 
-## Code Blocks
+!!! info
+    **Example Goal**: “Hold a 5-minute conversation about daily activities in Vietnamese within 3 months.”
 
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
+### Step 4: Think in Vietnamese
 
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
+Avoid translating, think directly in Vietnamese to build fluency:
 
-greet("Python")
-```
-
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
-
-    Code annotations allow to attach notes to lines of code.
-
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
-
-## Content tabs
-
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
-
-=== "Python"
-
-    ``` python
-    print("Hello from Python!")
-    ```
-
-=== "Rust"
-
-    ``` rs
-    println!("Hello from Rust!");
-    ```
-
-## Diagrams
-
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Footnotes
-
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
-
-Here's a sentence with a footnote.[^1]
-
-Hover it, to see a tooltip.
-
-[^1]: This is the footnote.
-
-
-## Formatting
-
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
-
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
-
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+- **Label your environment**: Stick notes on objects.
+- **Narrate your day**: Describe actions in Vietnamese.
+- **Use visual cues**: Associate words with images, not English translations.
