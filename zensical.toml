@@ -96,33 +96,33 @@ nav = [
       "grammar/1.md",
       "grammar/2.md",
       "grammar/3.md",
-      "grammar/4.md",
-      "grammar/5.md",
-      "grammar/6.md",
-      "grammar/7.md"
+      {"Daily Life" = ["grammar/4.md", "grammar/5.md","grammar/6.md","grammar/7.md"]}
     ]
   },
   { "Vocabulary" = [
       "vocabulary/1.md",
       "vocabulary/2.md",
-      "vocabulary/3.md",
-      "vocabulary/4.md",
-      "vocabulary/5.md",
-      "vocabulary/6.md",
-      "vocabulary/7.md",
-      "vocabulary/8.md",
-      "vocabulary/9.md",
-      "vocabulary/10.md",
-      "vocabulary/11.md",
-      "vocabulary/12.md",
-      "vocabulary/13.md",
-      "vocabulary/14.md",
-      "vocabulary/15.md",
-      "vocabulary/16.md",
-      "vocabulary/17.md",
-      "vocabulary/18.md",
-      "vocabulary/19.md",
-      "vocabulary/20.md",
+      {
+        "Noun" = [
+          "vocabulary/3.md",
+          "vocabulary/4.md",
+          "vocabulary/5.md",
+          "vocabulary/6.md",
+          "vocabulary/7.md",
+          "vocabulary/8.md",
+          "vocabulary/9.md",
+          "vocabulary/10.md",
+          "vocabulary/11.md",
+          "vocabulary/12.md",
+          "vocabulary/13.md",
+          "vocabulary/14.md",
+          "vocabulary/15.md",
+          "vocabulary/16.md",
+          "vocabulary/17.md",
+          "vocabulary/18.md",
+          "vocabulary/19.md",
+          "vocabulary/20.md"
+        ]},
       "vocabulary/21.md",
       "vocabulary/22.md",
       "vocabulary/23.md",
@@ -298,7 +298,7 @@ features = [
     # When navigation paths are activated, a breadcrumb navigation is rendered
     # above the title of each page
     # https://zensical.org/docs/setup/navigation/#navigation-path
-    "navigation.path",
+    # "navigation.path",
 
     # When pruning is enabled, only the visible navigation items are included
     # in the rendered HTML, reducing the size of the built site by 33% or more.
@@ -308,7 +308,7 @@ features = [
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-sections
-    "navigation.sections",
+    # "navigation.sections",
 
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
@@ -318,7 +318,7 @@ features = [
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
     # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
-    #"navigation.tabs.sticky",
+    "navigation.tabs.sticky",
 
     # A back-to-top button can be shown when the user, after scrolling down,
     # starts to scroll up again.
